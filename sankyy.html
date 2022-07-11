@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <!-- change directories here if you're not working within the /documentation folder -->
+    <script src="../../github/dashboard/src/graphFunctions.js"></script>
+    <script src="../../github/dashboard/src/generateHTMLstructure.js"></script>
+    <script src="../../github/dashboard/src/dataProcessUtils.js"></script>
+    <script src="../../github/dashboard/src/checkBoxSelectors.js"></script>
+    <script src="./financas.js"></script>
+    <script src="../../github/dashboard/pxWebFunctions/dataFilter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-sankey.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+
+<body>
+</body>
+
+<script>
+
+    initiateDashboard(false, directory = "../../github/dashboard/")
+    console.log(data3)
+    
+    var [categories, options] = extractCategoriesAndOptions(data3, dependentVariableName = 'weight')
+    categories = categories.filter(i=>i!=='to')
+    let ins = [0,2]
+    options = options.filter((el,i)=>ins.some(j => i === j))
+    console.log(categories)
+    console.log(options)
+
+    generateCheckBoxes(categories, options, 'boxTop', data3)
+    
+    document.getElementById("buttonDimensionSelector").onclick = function(){
+        showBoxSelector("boxTop")
+        document.getElementById("graphsContainer").innerHTML = '<div id="container" style="width: 100vw; height: 60vh"></div>'
+        anychart.onDocumentReady(function () {
+    
+          // create a sankey diagram instance
+          let chart = anychart.sankey();
+
+          // load the data to the sankey diagram instance
+          chart.data(filteredData);
+
+          // set the chart's padding
+          chart.padding(50, 90);
+    
+          // add a title
+          chart.title('Alimentacao');
+    
+          // set the chart container id
+          chart.container("container");
+
+          // draw the chart
+          chart.draw();
+      });
+    }
+    document.getElementById("selectDimensionButton").onclick = function(){
+        showBoxSelector("boxTop")
+    }
+    
+    var checkedValues = checkedValuesObjectGenerator(categories)
+    var allCheckBoxes = document.querySelectorAll('input');
+    
+    establishInitial(allCheckBoxes, categories, checkedValues, data3, filterDataByCheckBoxSelectorTT)
+
+     
+</script>
+</html>

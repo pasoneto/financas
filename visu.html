@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+    <!-- change directories here if you're not working within the /documentation folder -->
+    <script src="../../github/dashboard/src/graphFunctions.js"></script>
+    <script src="../../github/dashboard/src/generateHTMLstructure.js"></script>
+    <script src="../../github/dashboard/src/dataProcessUtils.js"></script>
+    <script src="../../github/dashboard/src/checkBoxSelectors.js"></script>
+    <script src="./financas.js"></script>
+    <script src="../../github/dashboard/pxWebFunctions/dataFilter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+</head>
+
+<body>
+</body>
+
+<script>
+
+    initiateDashboard(false, directory = "../../github/dashboard/")
+    
+    var [categories, options] = extractCategoriesAndOptions(data, dependentVariableName = 'Valor')
+    generateCheckBoxes(categories, options, 'boxTop', data)
+    
+    document.getElementById("buttonDimensionSelector").onclick = function(){
+        showBoxSelector("boxTop")
+        //wrapGraph(checkedValues, categories, filteredData)
+        //displayNonGraphs(filteredData, whereToAppend = "graphsContainer")
+        var xAxis1 = filteredData.map(i=>i.Categoria)
+        var yAxis1 = filteredData.map(i=>i.Valor)
+        var pieColors = colorGenerator(yAxis1);
+
+        var html = '<div class="row">'+
+                     '<div class="column graphBox" style="height: 60vh" id="box"></div>'+
+                     '<div class="column graphBox" style="height: 60vh" id="box1"></div>'+
+                     '</div>'
+
+        document.getElementById("graphsContainer").innerHTML = html
+        
+        var box = document.getElementById("box")
+        var box1 = document.getElementById("box1")
+        box.innerHTML = '<canvas id="myChart"></canvas>'
+        box1.innerHTML = '<canvas id="myChart1"></canvas>'
+
+        var yAxis1 = yAxis1.map(i=> [i])
+        //var xAxis1 = xAxis1.map(i=> [i])
+        var randomColors1 = colorGenerator(yAxis1);
+        console.log(["Tipos"])
+        console.log(yAxis1)
+        console.log(xAxis1)
+        console.log(randomColors1)
+       
+        //var data2 = [{x: 'Jan', net: 100, cogs: 50, gm: 50}, {x: 'Feb', net: 120, cogs: 55, gm: 75}];
+        console.log(filteredData)
+  var data = [
+    {x:50, y:7, z: 10, group: 'a'},
+    {x:60, y:8, z: 10, group: 'a'},
+    {x:70, y:8, z: 48, group: 'a'},
+    {x:100, y:9, z:45, group: 'a'},
+    {x:110, y:10, z:75, group: 'b'},
+    {x:120, y:11, z:32, group: 'b'},
+    {x:130, y:14, z:46, group: 'b'},
+    {x:140, y:14, z:89, group: 'b'},
+    {x:150, y:15, z:55, group: 'b'}
+  ];
+  
+    const config = {
+      type: 'line',
+      data: {
+        labels: data.map(o => o.x),
+        datasets: [{
+          label: 'Net sales',
+          data: data.map(o => o.y)
+        }, {
+          label: 'Cost of goods sold',
+          data: data.map(o => o.z)
+        }]
+      },
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              beginAtZero: true
+            }
+          }]
+        }
+      }
+    };
+
+    new Chart('myChart', config);
+    //graphCustom(["Tipos"], [yAxis1], xAxis1, "myChart", "bar", "", randomColors1)
+
+    graphCustomPie(xAxis1, yAxis1, "myChart1", "pie", "Totais", pieColors, legend=true)
+
+    }
+    document.getElementById("selectDimensionButton").onclick = function(){
+        showBoxSelector("boxTop")
+    }
+    
+    var checkedValues = checkedValuesObjectGenerator(categories)
+    var allCheckBoxes = document.querySelectorAll('input');
+    
+    establishInitial(allCheckBoxes, categories, checkedValues, data, filterDataByCheckBoxSelectorTT, exception = "Tipo")
+
+    var multi = ["Categoria"];//Selecting two multiclass classifiers
+    var single = ["Tipo", "Mes"]//Establishing the single classifiers
+
+    //Running click simulation
+    simulateSelection(multi, single)
+     
+</script>
+</html>
