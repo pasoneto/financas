@@ -46,10 +46,23 @@ secondReport = dt %>%
   ) %>%
   melt()
 
-thirdReport = dt %>% 
+#Select seed (e.g. salario)
+#select targets (air bnb, alimentacao),
+#sum within target values and create from seed to each target,
+#sum seed value and summ of all targets
+#difference is dropp of
+thirdReport = dt %>% dvisu()
   group_by(Categoria, Descricao) %>%
   summarise(Debito = sum(Debito)) %>%
   melt()
+
+salarioTotal = dt %>% filter(Categoria == 'salario') %>% select(Credito) %>% sum()
+airbnbTotal = dt %>% filter(Categoria == 'air bnb') %>% select(Debito) %>% sum(na.rm = TRUE)
+alimentacaoTotal = dt %>% filter(Categoria == 'alimentacao') %>% select(Debito) %>% sum(na.rm = TRUE)
+
+thirdReport = rbind(thirdReport, 
+                    c(Categoria = 'salario', Descricao = 'air bnb', Variable = 'Debito', weight = airbnbTotal),
+                    c(Categoria = 'salario', Descricao = 'alimentacao', Variable = 'Debito', weight = alimentacaoTotal))
 
 colnames(firstReport) <- c("Categoria", "Tipo", "Valor", "Mes")
 firstReport[is.na(firstReport)] <- 0
@@ -66,7 +79,7 @@ thirdReport <- toJSON(thirdReport)
 
 firstReport = paste("var data = ", firstReport, sep="")
 secondReport = paste("var data1 = ", secondReport, sep="")
-secondReport = paste("var data2 = ", thirdReport, sep="")
+thirdReport = paste("var data2 = ", thirdReport, sep="")
 
 allReports = paste(firstReport, secondReport, thirdReport, sep = "\n")
 write(allReports, "./financas.js")

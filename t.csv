@@ -1,138 +1,366 @@
-"","Categoria","Descricao","variable","value"
-"1","","darf tearte 2020","Debito",473.98
-"2","","tiffany","Debito",224.67
-"3","air bnb","amazon","Debito",39.9
-"4","air bnb","edf maison rio branco","Debito",1435.91
-"5","air bnb","escelsa","Debito",592.11
-"6","air bnb","escelsa ","Debito",745
-"7","air bnb","faxina","Debito",150
-"8","air bnb","iptu","Debito",309.56
-"9","air bnb","muller eletico ","Debito",245.8
-"10","air bnb","pedro","Debito",NA
-"11","air bnb","pedro ","Debito",NA
-"12","air bnb","viva fibra","Debito",339.99
-"13","air bnb","vivo banda larga","Debito",113.9
-"14","alimentacao","cafe bamboo","Debito",90.49
-"15","alimentacao","cantina fiorentina","Debito",26.97
-"16","alimentacao","carone","Debito",1931.38
-"17","alimentacao","dietetica","Debito",728
-"18","alimentacao","epa supermercado","Debito",34.26
-"19","alimentacao","gabe ","Debito",28
-"20","alimentacao","i-food","Debito",431.27
-"21","alimentacao","kabecos","Debito",181
-"22","alimentacao","lanchonete","Debito",15
-"23","alimentacao","madeleine","Debito",11
-"24","alimentacao","mercadinho","Debito",54.33
-"25","alimentacao","monte libano","Debito",4.6
-"26","alimentacao","padaria","Debito",6.19
-"27","alimentacao","restaurante aracruz","Debito",25.5
-"28","alimentacao","salgados express","Debito",13.5
-"29","alimentacao","sodie","Debito",34
-"30","alimentacao","supermercado","Debito",44
-"31","assinatura","amazon prime","Debito",89
-"32","assinatura","diversos","Debito",84.98
-"33","assinatura","globo play","Debito",160.3
-"34","assinatura","google","Debito",48.93
-"35","assinatura","spotfy","Debito",139.3
-"36","assinatura","vivo fibra","Debito",283.39
-"37","bonus","cvc corp","Debito",NA
-"38","cama/mesa/banho","mania do lar","Debito",13.98
-"39","celular","recarga","Debito",40
-"40","celular","vivo gabriel","Debito",336.66
-"41","celular","vivo pedro","Debito",251.22
-"42","celular","vivo priscilla","Debito",289.67
-"43","cle concept","99 taxi","Debito",31.92
-"44","cle concept","armarinho laranjeiras","Debito",82.5
-"45","cle concept","celga","Debito",89.94
-"46","cle concept","cle concept","Debito",NA
-"47","cle concept","correios","Debito",135.15
-"48","cle concept","correios ","Debito",80.2
-"49","cle concept","nildete","Debito",898.44
-"50","cle concept","nildete ","Debito",425
-"51","cle concept","valcimar motoboy","Debito",55
-"52","condominio","air bnb","Debito",909.02
-"53","condominio","edf maison rio branco","Debito",NA
-"54","cuidados pessoais","depilare","Debito",168
-"55","cuidados pessoais","farmacia","Debito",60
-"56","cuidados pessoais","hamilton andrade","Debito",476
-"57","cuidados pessoais","otica londres","Debito",44.9
-"58","cuidados pessoais","oticas diniz","Debito",904
-"59","cuidados pessoais","vestuario","Debito",65.6
-"60","diversos","celular tec","Debito",35
-"61","diversos","diversos","Debito",49.4
-"62","diversos","ronaldo","Debito",300
-"63","dividas","banco original","Debito",3508.98
-"64","dividas","marly sanglard","Debito",1000
-"65","dividas","parcelamento nubank","Debito",478.06
-"66","dividas","santander","Debito",602
-"67","dividas","santander	","Debito",3010
-"68","eletrodomesticos","amazon","Debito",132.12
-"69","emprestimo","banco original","Debito",584.86
-"70","energia","escelsa","Debito",628.53
-"71","energia","escelsa ","Debito",548.78
-"72","faxina","aparecida","Debito",1342
-"73","faxina","maria aparecida","Debito",110
-"74","felinos","estima dog","Debito",997.99
-"75","felinos","pet z","Debito",96.69
-"76","felinos","petspa","Debito",32.65
-"77","fgts","cvc corp","Debito",NA
-"78","gabriel","lcr comercio moveis","Debito",299
-"79","impostos","iof","Debito",78.17
-"80","internet","vivo banda larga","Debito",113.9
-"81","iptu","air bnb","Debito",309.54
-"82","irpf","juliano contador","Debito",150
-"83","jade","pedro","Debito",NA
-"84","jade","wester uniao","Debito",351.33
-"85","jade","wester union","Debito",401.52
-"86","jade","western uniao","Debito",1204.56
-"87","jade","western union","Debito",363.79
-"88","juros","santander","Debito",165.17
-"89","manutencao","shopping do micro","Debito",650
-"90","manutencao casa","josias moreira","Debito",50
-"91","manutencao note","shopping do micro","Debito",190
-"92","moradia","escelsa","Debito",121.62
-"93","moradia","vivo fibra","Debito",56.6
-"94","moveis","tok stok","Debito",130
-"95","mrs. fly viagens","mrs fly","Debito",NA
-"96","mrs. fly viagens","mrs fly viagens","Debito",NA
-"97","outros","banca ","Debito",141
-"98","outros","beatriz cardoso","Debito",430
-"99","outros","gugu","Debito",1090
-"100","outros","ronaldo","Debito",470
-"101","outros","tabacaria","Debito",158
-"102","pedro","vivo pedro","Debito",38.44
-"103","presente","buylliant","Debito",502.37
-"104","presente","celular ruy","Debito",669
-"105","presente","insider","Debito",280
-"106","presente","iof","Debito",32.07
-"107","presente","oyo gabriel","Debito",174
-"108","presente","oyo mae","Debito",134.13
-"109","presente","oyo ruy","Debito",114.13
-"110","presente","pedrinho","Debito",NA
-"111","reforma","muller eletico ","Debito",122.9
-"112","reforma","tok stok","Debito",130
-"113","salario","cvc corp","Debito",NA
-"114","salario","cvc corp ","Debito",NA
-"115","santander","seguro","Debito",108.26
-"116","saude","dra rose","Debito",200
-"117","saude","farmacia","Debito",218.21
-"118","saude","vacina","Debito",95
-"119","seguro","santander","Debito",433.12
-"120","sitio boa vista","anuncios","Debito",132.5
-"121","sitio boa vista","booking","Debito",728
-"122","sitio boa vista","helena","Debito",NA
-"123","sitio boa vista","instagran","Debito",95.86
-"124","sitio boa vista","thiago mota","Debito",NA
-"125","supermercado","mercadinho","Debito",26.35
-"126","tearte","darf tearte irpj","Debito",25
-"127","tearte","jade sanglard","Debito",NA
-"128","tearte","ruy ","Debito",789.9
-"129","tearte","valcimar","Debito",45
-"130","tearte portugal","fundart","Debito",330
-"131","transporte","99 taxi","Debito",707.42
-"132","transporte","onibus aracruz","Debito",53.28
-"133","vestuario","help","Debito",292.26
-"134","vestuario","insider","Debito",273
-"135","vestuario","loja ","Debito",191.34
-"136","vestuario","loja de roupa","Debito",220
-"137","viagem trabalho","starbucks","Debito",35.5
+"","Mes","Descricao","Categoria","Parcelas","Credito","Debito","FOP","Situacao"
+"1","Jan","vivo banda larga","air bnb","Mensal",NA,56.95,"CCorrente Santander","Pago"
+"2","Jan","vivo banda larga","internet","Mensal",NA,56.95,"CCorrente Santander","Pago"
+"3","Jan","iof","impostos","Mensal",NA,13.9,"CCorrente Santander","Pago"
+"4","Jan","iof","impostos","Mensal",NA,2.46,"CCorrente Santander","Pago"
+"5","Jan","kabecos","alimentacao"," -",NA,53.5,"CCorrente Santander","Pago"
+"6","Jan","i-food","alimentacao"," -",NA,34.9,"CCorrente Santander","Pago"
+"7","Jan","ronaldo","outros"," -",NA,170,"CCorrente Santander","Pago"
+"8","Jan","help","vestuario","2/4",NA,97.42,"CCredito Nubank","Pago"
+"9","Jan","muller eletico ","air bnb","8/10",NA,122.9,"CCredito Nubank","Pago"
+"10","Jan","parcelamento nubank","dividas","9/12",NA,478.06,"CCredito Nubank","Pago"
+"11","Jan","carone","alimentacao","2/2",NA,206.55,"CCredito Nubank","Pago"
+"12","Jan","tok stok","moveis","7/10",NA,65,"CCredito Nubank","Pago"
+"13","Jan","otica londres","cuidados pessoais","10/10",NA,44.9,"CCredito Nubank","Pago"
+"14","Jan","amazon","eletrodomesticos","7/10",NA,33.03,"CCredito Nubank","Pago"
+"15","Jan","oticas diniz","cuidados pessoais","3/10",NA,113,"CCredito Nubank","Pago"
+"16","Jan","amazon","air bnb","10/10",NA,39.9,"CCredito Nubank","Pago"
+"17","Jan","99 taxi","transporte"," -",NA,154.69,"CCredito Nubank","Pago"
+"18","Jan","spotfy","assinatura","Mensal",NA,19.9,"CCredito Nubank","Pago"
+"19","Jan","vacina","saude"," -",NA,95,"CCredito Nubank","Pago"
+"20","Jan","vestuario","cuidados pessoais"," -",NA,65.6,"CCredito Nubank","Pago"
+"21","Jan","globo play","assinatura","Mensal",NA,22.9,"CCredito Nubank","Pago"
+"22","Jan","diversos","diversos"," -",NA,49.4,"CCredito Nubank","Pago"
+"23","Jan","depilare","cuidados pessoais"," -",NA,168,"CCredito Nubank","Pago"
+"24","Jan","padaria","alimentacao"," -",NA,6.19,"CCredito Nubank","Pago"
+"25","Jan","farmacia","saude"," -",NA,17.5,"CCredito Nubank","Pago"
+"26","Jan","recarga","celular"," -",NA,40,"CCredito Nubank","Pago"
+"27","Jan","google","assinatura","Mensal",NA,6.99,"CCredito Nubank","Pago"
+"28","Jan","insider","vestuario","1/3",NA,91,"CCredito Nubank","Pago"
+"29","Jan","celular ruy","presente","1/6",NA,111.5,"CCredito Nubank","Pago"
+"30","Jan","pedro","air bnb"," -",3000,NA,"CCorrente Santander","Pago"
+"31","Jan","escelsa ","air bnb","Mensal",NA,163.49,"CCorrente Santander","Pago"
+"32","Jan","escelsa ","energia","Mensal",NA,163.49,"CCorrente Santander","Pago"
+"33","Jan","cvc corp ","salario"," -",3985.76,NA,"CCorrente Santander","Pago"
+"34","Jan","edf maison rio branco","condominio","Mensal",NA,271.46,"CCorrente Santander","Pago"
+"35","Jan","santander","dividas","10/45",NA,602,"CCorrente Santander","Pago"
+"36","Jan","edf maison rio branco","air bnb","Mensal",NA,271.46,"CCorrente Santander","Pago"
+"37","Jan","vivo fibra","assinatura","Mensal",NA,56.99,"CCorrente Santander","Pago"
+"38","Jan","viva fibra","air bnb","Mensal",NA,56.99,"CCorrente Santander","Pago"
+"39","Jan","estima dog","felinos"," -",NA,164.6,"CCorrente Santander","Pago"
+"40","Jan","ronaldo","outros"," -",NA,300,"CCorrente Santander","Pago"
+"41","Jan","aparecida","faxina"," -",NA,210,"CCorrente Santander","Pago"
+"42","Jan","marly sanglard","dividas","14/15",NA,500,"CCorrente Santander","Pago"
+"43","Jan","kabecos","alimentacao"," -",NA,38,"CCorrente Santander","Pago"
+"44","Jan","vivo gabriel","celular","Mensal",NA,50.99,"CCorrente Santander","Pago"
+"45","Jan","mercadinho","alimentacao"," -",NA,17.95,"CCorrente Santander","Pago"
+"46","Jan","vivo pedro","pedro","Mensal",NA,38.44,"CCorrente Santander","Pago"
+"47","Jan","vivo priscilla","celular","Mensal",NA,38.44,"CCorrente Santander","Pago"
+"48","Jan","santander","seguro","9/12",NA,108.26,"CCorrente Santander","Pago"
+"49","Jan","banco original","dividas","1/24",NA,584.68,"CCorrente Santander","Pago"
+"50","Jan","cvc corp ","salario"," -",1385.04,NA,"CCorrente Santander","Pago"
+"51","Jan","santander","juros"," -",NA,41.13,"CCorrente Santander","Pago"
+"52","Jan","gugu","outros"," -",NA,240,"CCorrente Santander","Pago"
+"53","Jan","wester union","jade","- ",NA,401.52,"CCorrente Santander","Pago"
+"54","Feb","iof","impostos"," -",NA,4.88,"CCorrente Santander","Pago"
+"55","Feb","dietetica","alimentacao"," -",NA,728,"CCorrente Santander","Pago"
+"56","Feb","vivo gabriel","celular","Mensal",NA,54.99,"CCorrente Santander","Pago"
+"57","Feb","aparecida","faxina"," -",NA,70,"CCorrente Santander","Pago"
+"58","Feb","cvc corp ","salario"," -",3023.8,NA,"CCorrente Santander","Pago"
+"59","Feb","santander	","dividas","11/45",NA,602,"CCorrente Santander","Pago"
+"60","Feb","muller eletico ","air bnb","9/10",NA,122.9,"CCorrente Santander","Pago"
+"61","Feb","tok stok","moveis","8/10",NA,65,"CCredito Nubank","Pago"
+"62","Feb","amazon","eletrodomesticos","8/10",NA,33.03,"CCredito Nubank","Pago"
+"63","Feb","oticas diniz","cuidados pessoais","4/10",NA,113,"CCredito Nubank","Pago"
+"64","Feb","spotfy","assinatura","Mensal",NA,19.9,"CCredito Nubank","Pago"
+"65","Feb","globo play","assinatura","Mensal",NA,22.9,"CCredito Nubank","Pago"
+"66","Feb","google","assinatura","Mensal",NA,6.99,"CCredito Nubank","Pago"
+"67","Feb","help","vestuario","3/4",NA,97.42,"CCredito Nubank","Pago"
+"68","Feb","celular ruy","presente","2/6",NA,111.5,"CCredito Nubank","Pago"
+"69","Feb","carone","alimentacao","2/2 ",NA,76.93,"CCredito Nubank","Pago"
+"70","Feb","insider","vestuario","2/3",NA,91,"CCredito Nubank","Pago"
+"71","Feb","epa supermercado","alimentacao"," -",NA,34.26,"CCredito Nubank","Pago"
+"72","Feb","estima dog","felinos"," -",NA,59.9,"CCredito Nubank","Pago"
+"73","Feb","sodie","alimentacao"," -",NA,19.5,"CCredito Nubank","Pago"
+"74","Feb","99 taxi","transporte"," -",NA,58.45,"CCredito Nubank","Pago"
+"75","Feb","loja ","vestuario","1/3",NA,63.78,"CCredito Nubank","Pago"
+"76","Feb","banca ","outros"," -",NA,20,"CCredito Nubank","Pago"
+"77","Feb","escelsa ","air bnb","Mensal",NA,396.22,"CCorrente Santander","Pago"
+"78","Feb","escelsa ","energia","Mensal",NA,200,"CCorrente Santander","Pago"
+"79","Feb","edf maison rio branco","condominio","Mensal",NA,245.46,"CCorrente Santander","Pago"
+"80","Feb","edf maison rio branco","air bnb","Mensal",NA,245.46,"CCorrente Santander","Pago"
+"81","Feb","vivo banda larga","air bnb","Mensal",NA,56.95,"CCorrente Santander","Pago"
+"82","Feb","vivo banda larga","internet","Mensal",NA,56.95,"CCorrente Santander","Pago"
+"83","Feb","estima dog","felinos"," -",NA,59.9,"CCorrente Santander","Pago"
+"84","Feb","aparecida","faxina"," -",NA,120,"CCorrente Santander","Pago"
+"85","Feb","armarinho laranjeiras","cle concept"," -",NA,82.5,"CCorrente Santander","Pago"
+"86","Feb","vivo pedro","celular","Mensal",NA,38.44,"CCorrente Santander","Pago"
+"87","Feb","vivo priscilla","celular","Mensal",NA,38.44,"CCorrente Santander","Pago"
+"88","Feb","cvc corp ","salario","Mensal",1337.76,NA,"CCorrente Santander","Pago"
+"89","Feb","santander","juros"," -",NA,57.56,"CCorrente Santander","Pago"
+"90","Feb","seguro","santander","10/12",NA,108.26,"CCorrente Santander","Pago"
+"91","Feb","banco original","dividas","2/24",NA,584.86,"CCorrente Santander","Pago"
+"92","Feb","mercadinho","alimentacao"," -",NA,2.38,"CCorrente Santander","Pago"
+"93","Feb","wester uniao","jade"," -",NA,351.33,"CCorrente Santander","Pago"
+"94","Feb","correios ","cle concept"," -",NA,80.2,"CCorrente Santander","Pago"
+"95","Feb","mrs fly viagens","mrs. fly viagens"," -",500,NA,"CCorrente Santander","Pago"
+"96","Mar","iof","impostos","Mensal",NA,13.29,"CCorrente Santander","Pago"
+"97","Mar","iof","impostos","Mensal",NA,1.34,"CCorrente Santander","Pago"
+"98","Mar","instagran","sitio boa vista"," -",NA,40.7,"CCorrente Santander","Pago"
+"99","Mar","instagran","sitio boa vista"," -",NA,25.16,"CCorrente Santander","Pago"
+"100","Mar","ronaldo","diversos"," -",NA,300,"CCorrente Santander","Pago"
+"101","Mar","nildete ","cle concept"," -",NA,380,"CCorrente Santander","Pago"
+"102","Mar","cvc corp ","salario"," -",3394.26,NA,"CCorrente Santander","Pago"
+"103","Mar","santander	","dividas","12/45",NA,602,"CCorrente Santander","Pago"
+"104","Mar","muller eletico ","reforma","10/10",NA,122.9,"CCredito Nubank","Pago"
+"105","Mar","tok stok","reforma","9/10",NA,65,"CCredito Nubank","Pago"
+"106","Mar","amazon","eletrodomesticos","9/10",NA,33.03,"CCredito Nubank","Pago"
+"107","Mar","oticas diniz","cuidados pessoais","7/10",NA,113,"CCredito Nubank","Pago"
+"108","Mar","spotfy","assinatura","Mensal",NA,19.9,"CCredito Nubank","Pago"
+"109","Mar","globo play","assinatura","Mensal",NA,22.9,"CCredito Nubank","Pago"
+"110","Mar","google","assinatura","Mensal",NA,6.99,"CCredito Nubank","Pago"
+"111","Mar","help","vestuario","4/4",NA,97.42,"CCredito Nubank","Pago"
+"112","Mar","celular ruy","presente","3/6",NA,111.5,"CCredito Nubank","Pago"
+"113","Mar","insider","vestuario","3/3",NA,91,"CCredito Nubank","Pago"
+"114","Mar","loja ","vestuario","2/3",NA,63.78,"CCredito Nubank","Pago"
+"115","Mar","farmacia","saude"," -",NA,43.97,"CCredito Nubank","Pago"
+"116","Mar","hamilton andrade","cuidados pessoais"," -",NA,238,"CCredito Nubank","Pago"
+"117","Mar","farmacia","saude","1/2",NA,43.42,"CCredito Nubank","Pago"
+"118","Mar","carone","alimentacao"," -",NA,55.12,"CCredito Nubank","Pago"
+"119","Mar","99 taxi","transporte"," -",NA,25.35,"CCredito Nubank","Pago"
+"120","Mar","99 taxi","transporte"," -",NA,32.32,"CCredito Nubank","Pago"
+"121","Mar","monte libano","alimentacao"," -",NA,4.6,"CCredito Nubank","Pago"
+"122","Mar","mania do lar","cama/mesa/banho"," -",NA,13.98,"CCredito Nubank","Pago"
+"123","Mar","dra rose","saude"," -",NA,200,"CCredito Nubank","Pago"
+"124","Mar","banca ","outros"," -",NA,20,"CCredito Nubank","Pago"
+"125","Mar","99 taxi","transporte"," -",NA,45.65,"CCredito Nubank","Pago"
+"126","Mar","pedro","air bnb"," - ",800,NA,"CCorrente Santander","Pago"
+"127","Mar","vivo fibra","assinatura","Mensal",NA,56.6,"CCorrente Santander","Pago"
+"128","Mar","viva fibra","air bnb","Mensal",NA,56.6,"CCorrente Santander","Pago"
+"129","Mar","escelsa ","air bnb","Mensal",NA,185.29,"CCorrente Santander","Pago"
+"130","Mar","escelsa ","energia","Mensal",NA,185.29,"CCorrente Santander","Pago"
+"131","Mar","air bnb","condominio","Mensal",NA,245.46,"CCorrente Santander","Pago"
+"132","Mar","edf maison rio branco","air bnb","Mensal",NA,245.46,"CCorrente Santander","Pago"
+"133","Mar","gugu","outros"," -",NA,250,"CCorrente Santander","Pago"
+"134","Mar","aparecida","faxina"," -",NA,109,"CCorrente Santander","Pago"
+"135","Mar","pedro","jade"," -",1235,NA,"CCorrente Santander","Pago"
+"136","Mar","i-food","alimentacao"," -",NA,27.99,"CCorrente Santander","Pago"
+"137","Mar","vivo gabriel","celular","Mensal",NA,50.99,"CCorrente Santander","Pago"
+"138","Mar","vivo pedro","celular","Mensal",NA,38.44,"CCorrente Santander","Pago"
+"139","Mar","vivo priscilla","celular","Mensal",NA,38.44,"CCorrente Santander","Pago"
+"140","Mar","western uniao","jade"," -",NA,1204.56,"CCorrente Santander","Pago"
+"141","Mar","pedro","jade"," -",NA,1130,"CCorrente Santander","Pago"
+"142","Mar","cvc corp ","salario"," -",1421.89,NA,"CCorrente Santander","Pago"
+"143","Mar","marly sanglard","dividas","15/15",NA,500,"CCorrente Santander","Pago"
+"144","Mar","i-food","alimentacao"," -",NA,144.49,"CCorrente Santander","Pago"
+"145","Mar","gugu","outros"," -",NA,150,"CCorrente Santander","Pago"
+"146","Mar","banco original","dividas","03/24",NA,584.86,"CCorrente Santander","Pago"
+"147","Mar","santander","seguro","11/12",NA,108.26,"CCorrente Santander","Pago"
+"148","Mar","santander","juros"," -",NA,23.97,"CCorrente Santander","Pago"
+"149","Mar","iptu","air bnb","Mensal",NA,103.2,"CCorrente Santander","Pago"
+"150","Mar","aparecida","faxina"," -",NA,120,"CCorrente Santander","Pago"
+"151","Mar","thiago mota","sitio boa vista","1/2",700,NA,"CCorrente Santander","Pago"
+"152","Mar","nildete ","cle concept"," -",NA,45,"CCorrente Santander","Pago"
+"153","Mar","aparecida","faxina"," -",NA,120,"CCorrente Santander","Pago"
+"154","Mar","darf tearte 2020",""," -",NA,473.98,"CCorrente Santander","Pago"
+"155","Apr","tok stok","reforma","10/10",NA,65,"CCredito Nubank","Pago"
+"156","Apr","amazon","eletrodomesticos","10/10",NA,33.03,"CCredito Nubank","Pago"
+"157","Apr","spotfy","assinatura","Mensal",NA,19.9,"CCredito Nubank","Pago"
+"158","Apr","globo play","assinatura","Mensal",NA,22.9,"CCredito Nubank","Pago"
+"159","Apr","google","assinatura","Mensal",NA,6.99,"CCredito Nubank","Pago"
+"160","Apr","celular ruy","presente","4/6",NA,111.5,"CCredito Nubank","Pago"
+"161","Apr","loja ","vestuario","3/3",NA,63.78,"CCredito Nubank","Pago"
+"162","Apr","farmacia","saude","2/2",NA,43.42,"CCredito Nubank","Pago"
+"163","Apr","insider","presente","1/2",NA,140,"CCredito Nubank","Pago"
+"164","Apr","carone","alimentacao"," -",NA,7.5,"CCredito Nubank","Pago"
+"165","Apr","estima dog","felinos"," -",NA,70,"CCredito Nubank","Pago"
+"166","Apr","madeleine","alimentacao"," -",NA,11,"CCredito Nubank","Pago"
+"167","Apr","99 taxi","transporte"," -",NA,100,"CCredito Nubank","Pago"
+"168","Apr","supermercado","alimentacao"," -",NA,32,"CCredito Nubank","Pago"
+"169","Apr","estima dog","felinos"," -",NA,13.6,"CCredito Nubank","Pago"
+"170","Apr","cafe bamboo","alimentacao"," -",NA,28.49,"CCredito Nubank","Pago"
+"171","Apr","anuncios","sitio boa vista"," -",NA,30,"CCredito Nubank","Pago"
+"172","Apr","onibus aracruz","transporte"," -",NA,53.28,"CCredito Nubank","Pago"
+"173","Apr","restaurante aracruz","alimentacao"," -",NA,25.5,"CCredito Nubank","Pago"
+"174","Apr","oyo mae","presente"," -",NA,134.13,"CCredito Nubank","Pago"
+"175","Apr","anuncios","sitio boa vista"," -",NA,14.76,"CCredito Nubank","Pago"
+"176","Apr","oyo ruy","presente"," -",NA,114.13,"CCredito Nubank","Pago"
+"177","Apr","estima dog","felinos","1/3",NA,84.29,"CCredito Nubank","Pago"
+"178","Apr","banca ","outros"," -",NA,24,"CCredito Nubank","Pago"
+"179","Apr","supermercado","alimentacao"," -",NA,12,"CCredito Nubank","Pago"
+"180","Apr","kabecos","alimentacao"," -",NA,17,"CCredito Nubank","Pago"
+"181","Apr","99 taxi","cle concept"," -",NA,31.92,"CCredito Nubank","Pago"
+"182","Apr","oticas diniz","cuidados pessoais","5/10",NA,113,"CCredito Nubank","Pago"
+"183","Apr","iof","impostos","Mensal",NA,0.79,"CCorrente Santander","Pago"
+"184","Apr","iof","impostos","Mensal",NA,11.59,"CCorrente Santander","Pago"
+"185","Apr","vivo fibra","assinatura","Mensal",NA,56.6,"CCorrente Santander","Pago"
+"186","Apr","viva fibra","air bnb","Mensal",NA,56.6,"CCorrente Santander","Pago"
+"187","Apr","escelsa","air bnb","Mensal",NA,225.76,"CCorrente Santander","Pago"
+"188","Apr","escelsa","energia","Mensal",NA,185.29,"CCorrente Santander","Pago"
+"189","Apr","air bnb","condominio","Mensal",NA,231.56,"CCorrente Santander","Pago"
+"190","Apr","edf maison rio branco","air bnb","Mensal",NA,231.56,"CCorrente Santander","Pago"
+"191","Apr","vivo gabriel","celular","Mensal",NA,44.9,"CCorrente Santander","Pago"
+"192","Apr","santander","seguro","12/12",NA,108.3,"CCorrente Santander","Pago"
+"193","Apr","banco original","dividas","04/24",NA,584.86,"CCorrente Santander","Pago"
+"194","Apr","air bnb","iptu","Mensal",NA,103.18,"CCorrente Santander","Pago"
+"195","Apr","vivo pedro","celular","Mensal",NA,40.69,"CCorrente Santander","Pago"
+"196","Apr","vivo priscilla","celular","Mensal",NA,40.69,"CCorrente Santander","Pago"
+"197","Apr","nildete","cle concept"," -",NA,77,"CCorrente Santander","Pago"
+"198","Apr","cvc corp","salario"," -",3439.33,NA,"CCorrente Santander","Pago"
+"199","Apr","cvc corp","bonus"," -",2901,NA,"CCorrente Santander","Pago"
+"200","Apr","santander	","dividas","13/45",NA,602,"CCorrente Santander","Pago"
+"201","Apr","gugu","outros"," -",NA,300,"CCorrente Santander","Pago"
+"202","Apr","nildete","cle concept"," -",NA,33,"CCorrente Santander","Pago"
+"203","Apr","aparecida","faxina"," -",NA,148,"CCorrente Santander","Pago"
+"204","Apr","pedro ","air bnb"," -",700,NA,"CCorrente Santander","Pago"
+"205","Apr","i-food","alimentacao"," -",NA,59.4,"CCorrente Santander","Pago"
+"206","Apr","correios","cle concept"," -",NA,79.6,"CCorrente Santander","Pago"
+"207","Apr","valcimar motoboy","cle concept"," -",NA,55,"CCorrente Santander","Pago"
+"208","Apr","correios","cle concept"," -",NA,55.55,"CCorrente Santander","Pago"
+"209","Apr","aparecida","faxina"," -",NA,230,"CCorrente Santander","Pago"
+"210","Apr","santander","juros"," -",NA,42.51,"CCorrente Santander","Pago"
+"211","Apr","cvc corp","salario"," -",1392.08,NA,"CCorrente Santander","Pago"
+"212","Apr","gabe ","alimentacao"," -",NA,28,"CCorrente Santander","Pago"
+"213","Apr","nildete","cle concept"," -",NA,788.44,"CCorrente Santander","Pago"
+"214","Apr","pedro ","air bnb"," -",800,NA,"CCorrente Santander","Pago"
+"215","May","cvc corp","salario"," -",3438.18,NA,"CCorrente Santander","Pago"
+"216","May","santander	","dividas","14/45",NA,602,"CCorrente Santander","Pago"
+"217","May","cle concept","cle concept"," -",1420,NA,"CCorrente Santander","Pago"
+"218","May","iof","impostos","Mensal",NA,0.84,"CCorrente Santander","Pago"
+"219","May","iof","impostos","Mensal",NA,11.29,"CCorrente Santander","Pago"
+"220","May","vivo fibra","assinatura","Mensal",NA,56.6,"CCorrente Santander","Pago"
+"221","May","viva fibra","air bnb","Mensal",NA,56.6,"CCorrente Santander","Pago"
+"222","May","escelsa","air bnb","Mensal",NA,244.73,"CCorrente Santander","Pago"
+"223","May","escelsa","energia","Mensal",NA,200,"CCorrente Santander","Pago"
+"224","May","air bnb","condominio","Mensal",NA,232,"CCorrente Santander","Pago"
+"225","May","edf maison rio branco","air bnb","Mensal",NA,232,"CCorrente Santander","Pago"
+"226","May","vivo gabriel","celular","Mensal",NA,44.99,"CCorrente Santander","Pago"
+"227","May","banco original","dividas","05/24",NA,584.86,"CCorrente Santander","Pago"
+"228","May","air bnb","iptu","Mensal",NA,103.18,"CCorrente Santander","Pago"
+"229","May","vivo pedro","celular","Mensal",NA,47.98,"CCorrente Santander","Pago"
+"230","May","vivo priscilla","celular","Mensal",NA,44.99,"CCorrente Santander","Pago"
+"231","May","oticas diniz","cuidados pessoais","8/10",NA,113,"CCredito Nubank","Pago"
+"232","May","oticas diniz","cuidados pessoais","6/10",NA,113,"CCredito Nubank","Pago"
+"233","May","spotfy","assinatura","Mensal",NA,19.9,"CCredito Nubank","Pago"
+"234","May","globo play","assinatura","Mensal",NA,22.9,"CCredito Nubank","Pago"
+"235","May","google","assinatura","Mensal",NA,6.99,"CCredito Nubank","Pago"
+"236","May","celular ruy","presente","5/6",NA,111.5,"CCredito Nubank","Pago"
+"237","May","insider","presente","2/2",NA,140,"CCredito Nubank","Pago"
+"238","May","estima dog","felinos","2/3",NA,84.29,"CCredito Nubank","Pago"
+"239","May","oyo gabriel","presente"," -",NA,108.48,"CCredito Nubank","Pago"
+"240","May","carone","alimentacao","1/2",NA,106.42,"CCredito Nubank","Pago"
+"241","May","anuncios","sitio boa vista"," -",NA,30.01,"CCredito Nubank","Pago"
+"242","May","estima dog","felinos"," -",NA,48.7,"CCredito Nubank","Pago"
+"243","May","banca ","outros"," -",NA,29,"CCredito Nubank","Pago"
+"244","May","anuncios","sitio boa vista"," -",NA,30.11,"CCredito Nubank","Pago"
+"245","May","estima dog","felinos"," -",NA,29.9,"CCredito Nubank","Pago"
+"246","May","banca ","outros"," -",NA,48,"CCredito Nubank","Pago"
+"247","May","anuncios","sitio boa vista"," -",NA,27.62,"CCredito Nubank","Pago"
+"248","May","carone","alimentacao","1/2",NA,173.69,"CCredito Nubank","Pago"
+"249","May","oyo gabriel","presente"," -",NA,65.52,"CCredito Nubank","Pago"
+"250","May","carone","alimentacao","1/3",NA,65.95,"CCredito Nubank","Pago"
+"251","May","beatriz cardoso","outros"," -",NA,430,"CCorrente Santander","Pago"
+"252","May","jade sanglard","tearte"," -",486.46,NA,"CCorrente Santander","Pago"
+"253","May","aparecida","faxina"," -",NA,40,"CCorrente Santander","Pago"
+"254","May","helena","sitio boa vista"," -",1000,NA,"CCorrente Santander","Pago"
+"255","May","kabecos","alimentacao"," -",NA,17,"CCorrente Santander","Pago"
+"256","May","valcimar","tearte"," -",NA,20,"CCorrente Santander","Pago"
+"257","May","mrs fly","mrs. fly viagens"," -",2000,NA,"CCorrente Santander","Pago"
+"258","May","booking","sitio boa vista"," -",NA,728,"CCorrente Santander","Pago"
+"259","May","shopping do micro","manutencao"," -",NA,270,"CCorrente Santander","Pago"
+"260","May","mercadinho","alimentacao"," -",NA,34,"CCorrente Santander","Pago"
+"261","May","cvc corp","salario"," -",1415.43,NA,"CCorrente Santander","Pago"
+"262","May","ruy ","tearte"," -",NA,789.9,"CCorrente Santander","Pago"
+"263","May","faxina","air bnb"," -",NA,150,"CCorrente Santander","Pago"
+"264","May","i-food","alimentacao"," -",NA,108.99,"CCorrente Santander","Pago"
+"265","May","valcimar","tearte"," -",NA,25,"CCorrente Santander","Pago"
+"266","May","kabecos","alimentacao"," -",NA,19,"CCorrente Santander","Pago"
+"267","May","western union","jade"," -",NA,103.18,"CCorrente Santander","Pago"
+"268","May","western union","jade"," -",NA,260.61,"CCorrente Santander","Pago"
+"269","May","aparecida","faxina"," -",NA,175,"CCorrente Santander","Pago"
+"270","May","mercadinho","supermercado"," -",NA,26.35,"CCorrente Santander","Pago"
+"271","Jun","iof","impostos","Mensal",NA,5.24,"CCorrente Santander","Pago"
+"272","Jun","iof","impostos","Mensal",NA,0.17,"CCorrente Santander","Pago"
+"273","Jun","vivo fibra","assinatura","Mensal",NA,56.6,"CCorrente Santander","Pago"
+"274","Jun","viva fibra","air bnb","Mensal",NA,56.6,"CCorrente Santander","Pago"
+"275","Jun","escelsa","energia","Mensal",NA,243.24,"CCorrente Santander","Pago"
+"276",NA,"edf maison rio branco","condominio","Mensal",NA,NA,"CCorrente Santander","Pago"
+"277",NA,"vivo gabriel","celular","Mensal",NA,44.9,"CCorrente Santander","Pago"
+"278",NA,"santander","seguro","12/12",NA,108.3,"CCorrente Santander","Pago"
+"279","Jun","banco original","dividas","06/24",NA,584.86,"CCorrente Santander","Aberto"
+"280",NA,"iptu","air bnb","Mensal",NA,103.18,"CCorrente Santander","Pago"
+"281",NA,"vivo pedro","celular","Mensal",NA,40.69,"CCorrente Santander","Pago"
+"282",NA,"vivo priscilla","celular","Mensal",NA,40.69,"CCorrente Santander","Pago"
+"283","Jun","maria aparecida","faxina"," -",NA,110,"CCorrente Santander","Pago"
+"284","Jun","loja de roupa","vestuario"," - ",NA,220,"CCorrente Santander","Pago"
+"285","Jun","darf tearte irpj","tearte"," -",NA,25,"CCorrente Santander","Pago"
+"286","Jun","juliano contador","irpf"," - ",NA,150,"CCorrente Santander","Pago"
+"287","Jun","cvc corp","salario"," -",2731.56,NA,"CCorrente Santander","Pago"
+"288","Jun","santander	","dividas","15/45",NA,602,"CCorrente Santander","Pago"
+"289","Jun","cvc corp","fgts"," - ",600,NA,"CCorrente Santander","Pago"
+"290","Jun","oticas diniz","cuidados pessoais","9/10",NA,113,"CCredito Nubank","Pago"
+"291","Jun","spotfy","assinatura","Mensal",NA,19.9,"CCredito Nubank","Pago"
+"292","Jun","globo play","assinatura","Mensal",NA,22.9,"CCredito Nubank","Pago"
+"293","Jun","google","assinatura","Mensal",NA,6.99,"CCredito Nubank","Pago"
+"294","Jun","estima dog","felinos","3/3",NA,84.29,"CCredito Nubank","Pago"
+"295","Jun","carone","alimentacao","2/2",NA,173.69,"CCredito Nubank","Pago"
+"296","Jun","celular ruy","presente","6/6",NA,111.5,"CCredito Nubank","Pago"
+"297","Jun","carone","alimentacao","2/2",NA,106.42,"CCredito Nubank","Pago"
+"298","Jun","diversos","assinatura"," -",NA,84.98,"CCredito Nubank","Pago"
+"299","Jun","instagran","sitio boa vista"," -",NA,30,"CCredito Nubank","Pago"
+"300","Jun","hamilton andrade","cuidados pessoais"," -",NA,238,"CCredito Nubank","Pago"
+"301","Jun","farmacia","cuidados pessoais"," -",NA,60,"CCredito Nubank","Pago"
+"302","Jun","amazon prime","assinatura"," -",NA,89,"CCredito Nubank","Pago"
+"303","Jun","carone","alimentacao","1/2",NA,143.42,"CCredito Nubank","Pago"
+"304","Jun","estima dog","felinos","1/3",NA,73.34,"CCredito Nubank","Pago"
+"305","Jun","farmacia","saude"," -",NA,69.9,"CCredito Nubank","Pago"
+"306","Jun","shopping do micro","manutencao note","1/3",NA,190,"CCredito Nubank","Pago"
+"307","Jun","buylliant","presente"," -",NA,502.37,"CCredito Nubank","Pago"
+"308","Jun","iof","presente"," -",NA,32.07,"CCredito Nubank","Pago"
+"309","Jun","tiffany","","1/2",NA,74.89,"CCredito Nubank","Pago"
+"310","Jun","99 taxi","transporte"," -",NA,265.97,"CCredito Nubank","Pago"
+"311","Jun","carone","alimentacao","2/2",NA,201.02,"CCredito Nubank","Pago"
+"312","Jun","carone","alimentacao"," -",NA,287.69,"CCorrente NuBank","Pago"
+"313","Jun","lanchonete","alimentacao"," -",NA,15,"CCorrente NuBank","Pago"
+"314","Jun","josias moreira","manutencao casa"," -",NA,50,"CCorrente NuBank","Pago"
+"315","Jun","gugu","outros"," -",NA,150,"CCorrente NuBank","Pago"
+"316","Jun","estima dog","felinos"," -",NA,10.2,"CCorrente NuBank","Pago"
+"317","Jun","tabacaria","outros"," -",NA,30,"CCorrente NuBank","Pago"
+"318","Jun","sodie","alimentacao"," -",NA,14.5,"CCorrente NuBank","Pago"
+"319","Jun","celular tec","diversos"," -",NA,35,"CCorrente NuBank","Pago"
+"320","Jun","99 taxi","transporte"," -",NA,13,"CCorrente NuBank","Pago"
+"321","May","pedrinho","presente"," -",50,NA,"CCorrente NuBank","Pago"
+"322","May","petspa","felinos"," -",NA,32.65,"CCorrente NuBank","Pago"
+"323","May","cafe bamboo","alimentacao"," -",NA,62,"CCorrente NuBank","Pago"
+"324","May","cantina fiorentina","alimentacao"," -",NA,26.97,"CCorrente NuBank","Pago"
+"325","Mar","tabacaria","outros"," -",NA,64,"CCorrente NuBank","Pago"
+"326","May","i-food","alimentacao"," -",NA,55.5,"CCorrente NuBank","Pago"
+"327","May","99 taxi","transporte"," -",NA,11.99,"CCorrente NuBank","Pago"
+"328","May","kabecos","alimentacao"," -",NA,26.5,"CCorrente NuBank","Pago"
+"329","May","salgados express","alimentacao"," -",NA,13.5,"CCorrente NuBank","Pago"
+"330","May","carone","alimentacao"," -",NA,16.78,"CCorrente NuBank","Pago"
+"331","May","carone","alimentacao"," -",NA,166.78,"CCorrente NuBank","Pago"
+"332","May","fundart","tearte portugal"," -",NA,330,"CCorrente NuBank","Pago"
+"333","Apr","starbucks","viagem trabalho"," -",NA,35.5,"CCorrente NuBank","Pago"
+"334","Apr","estima dog","felinos"," -",NA,68.3,"CCorrente NuBank","Pago"
+"335","Apr","tabacaria","outros"," -",NA,64,"CCorrente NuBank","Pago"
+"336","Jan","kabecos","alimentacao"," -",NA,10,"CCorrente NuBank","Pago"
+"337","Jan","lcr comercio moveis","gabriel"," -",NA,299,"CCorrente NuBank","Pago"
+"338","Jan","pet z","felinos"," -",NA,96.69,"CCorrente NuBank","Pago"
+"339","Jan","celga","cle concept"," -",NA,89.94,"CCorrente NuBank","Pago"
+"340",NA,"iof","impostos","Mensal",NA,0.79,"CCorrente Santander","Pago"
+"341",NA,"iof","impostos","Mensal",NA,11.59,"CCorrente Santander","Pago"
+"342",NA,"vivo fibra","moradia","mensal",NA,56.6,"CCorrente Santander","Pago"
+"343",NA,"viva fibra","air bnb","mensal",NA,56.6,"CCorrente Santander","Pago"
+"344","Jun","escelsa","air bnb","mensal",NA,121.62,"CCorrente Santander","Pago"
+"345","Jun","escelsa","moradia","mensal",NA,121.62,"CCorrente Santander","Pago"
+"346","Jun","air bnb","condominio","mensal",NA,200,"CCorrente Santander","Pago"
+"347","Jun","edf maison rio branco","air bnb","mensal",NA,209.97,"CCorrente Santander","Pago"
+"348","Jun","vivo gabriel","celular","mensal",NA,44.9,"CCorrente Santander","Pago"
+"349","Jun","iptu","air bnb","mensal",NA,103.18,"CCorrente Santander","Pago"
+"350","Jun","banco original","emprestimo","",NA,584.86,"CCorrente Santander","Pago"
+"351","Jun","air bnb","iptu","mensal",NA,103.18,"CCorrente Santander","Pago"
+"352","Jun","vivo pedro","celular","mensal",NA,44.98,"CCorrente Santander","Pago"
+"353","Jun","vivo priscilla","celular","mensal",NA,47.98,"CCorrente Santander","Pago"
+"354","Jun","cvc corp","salario"," - ",2731.56,NA,"CCorrente Santander","Pago"
+"355","Jul","shopping do micro","manutencao","2/3",NA,190,"CCredito Nubank",""
+"356","Jul","oticas diniz","cuidados pessoais","10/10",NA,113,"CCredito Nubank",""
+"357","Jul","spotfy","assinatura","Mensal",NA,19.9,"CCredito Nubank",""
+"358","Jul","globo play","assinatura","Mensal",NA,22.9,"CCredito Nubank",""
+"359","Jul","google","assinatura","Mensal",NA,6.99,"CCredito Nubank",""
+"360","Jul","carone","alimentacao","2/2",NA,143.42,"CCredito Nubank",""
+"361","Jul","estima dog","felinos","2/3",NA,73.34,"CCredito Nubank",""
+"362","Jul","tiffany","","1/2",NA,74.89,"CCredito Nubank",""
+"363","Aug","estima dog","felinos","3/3",NA,73.34,"CCredito Nubank",""
+"364","Aug","shopping do micro","manutencao","3/3",NA,190,"CCredito Nubank",""
+"365","Aug","tiffany","","1/2",NA,74.89,"CCredito Nubank",""

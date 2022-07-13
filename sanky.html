@@ -3,6 +3,7 @@
     <!-- change directories here if you're not working within the /documentation folder -->
     <script src="https://pasoneto.github.io/lukeDashboard/src/generateHTMLstructure.js"></script>
     <script src="https://pasoneto.github.io/lukeDashboard/src/dataProcessUtils.js"></script>
+    <script src="https://pasoneto.github.io/lukeDashboard/tt/dataProcess.js"></script>
     <script src="https://pasoneto.github.io/lukeDashboard/src/checkBoxSelectors.js"></script> <!-- Renders database selector -->
     <script src="./financas.js"></script>
     <script src="https://pasoneto.github.io/lukeDashboard/pxWebFunctions/dataFilter.js"></script>
@@ -17,17 +18,22 @@
 
 <script>
 
-    initiateDashboard(false, directory = "https://pasoneto.github.io/lukeDashboard/")
-    console.log(data3)
-    
-    var [categories, options] = extractCategoriesAndOptions(data3, dependentVariableName = 'weight')
-    categories = categories.filter(i=>i!=='to')
-    let ins = [0,2]
-    options = options.filter((el,i)=>ins.some(j => i === j))
-    console.log(categories)
-    console.log(options)
+    function connectionGenerator(levelName, levels, from, valueField)  {
+      var filteredData1 = data.filter(i=> i[levelName] == levels[0])
+      var filteredData1 = filteredData1.map(i=> ({'from': i[from], 'to': i[levelName], 'weight': i[valueField] }))
+      if(levels.length == 2){
+        var filteredData2 = data.filter(i=> i[levelName] == levels[1])
+        var filteredData2 = filteredData2.map(i=> ({'from': levels[0], 'to': i[from], 'weight': i[valueField] }))
+        filteredData1 = filteredData1.concat(filteredData2)
+      }
+      return(filteredData1)
+    }
 
-    generateCheckBoxes(categories, options, 'boxTop', data3)
+    initiateDashboard(false, directory = "https://pasoneto.github.io/lukeDashboard/")
+    
+    var categories = ['classifiers', 'Tipo']
+    var options = [['Categoria', 'Mes'], ['Credito', 'Debito']]
+    generateCheckBoxes(categories, options, 'boxTop', data)
     
     document.getElementById("buttonDimensionSelector").onclick = function(){
         showBoxSelector("boxTop")
@@ -36,9 +42,17 @@
     
           // create a sankey diagram instance
           let chart = anychart.sankey();
+         
+          var levelName = 'Tipo' //Can only be dependentVariable
+          var levels = checkedValues['Tipo'] //subDepententVariables chosen
+          var from = checkedValues['classifiers'][0] //Only one classifier can be selected
+          var valueField = 'Valor' //Field holding value
+          
+          //Create connection data
+          var filteredData1 = connectionGenerator(levelName, levels, from, valueField)
 
           // load the data to the sankey diagram instance
-          chart.data(filteredData);
+          chart.data(filteredData1);
 
           // set the chart's padding
           chart.padding(50, 90);
@@ -59,8 +73,10 @@
     
     var checkedValues = checkedValuesObjectGenerator(categories)
     var allCheckBoxes = document.querySelectorAll('input');
-    
-    establishInitial(allCheckBoxes, categories, checkedValues, data3, filterDataByCheckBoxSelectorTT)
+
+    function bypassFilterFunction(){
+    }
+    establishInitial(allCheckBoxes, categories, checkedValues, data, bypassFilterFunction, exception = 'classifiers')
 
      
 </script>
