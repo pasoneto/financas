@@ -18,17 +18,6 @@
 
 <script>
 
-    function connectionGenerator(levelName, levels, from, valueField)  {
-      var filteredData1 = data.filter(i=> i[levelName] == levels[0])
-      var filteredData1 = filteredData1.map(i=> ({'from': i[from], 'to': i[levelName], 'weight': i[valueField] }))
-      if(levels.length == 2){
-        var filteredData2 = data.filter(i=> i[levelName] == levels[1])
-        var filteredData2 = filteredData2.map(i=> ({'from': levels[0], 'to': i[from], 'weight': i[valueField] }))
-        filteredData1 = filteredData1.concat(filteredData2)
-      }
-      return(filteredData1)
-    }
-
     initiateDashboard(false, directory = "https://pasoneto.github.io/lukeDashboard/")
     
     var categories = ['classifiers', 'Tipo']
@@ -43,13 +32,13 @@
           // create a sankey diagram instance
           let chart = anychart.sankey();
          
-          var levelName = 'Tipo' //Can only be dependentVariable
-          var levels = checkedValues['Tipo'] //subDepententVariables chosen
+          var dependentName = 'Tipo' //Can only be dependentVariable
+          var levelsDependent = checkedValues['Tipo'] //subDepententVariables chosen
           var from = checkedValues['classifiers'][0] //Only one classifier can be selected
           var valueField = 'Valor' //Field holding value
           
           //Create connection data
-          var filteredData1 = connectionGenerator(levelName, levels, from, valueField)
+          var filteredData1 = connectionGenerator(dependentName, levelsDependent, from, valueField)
 
           // load the data to the sankey diagram instance
           chart.data(filteredData1);
